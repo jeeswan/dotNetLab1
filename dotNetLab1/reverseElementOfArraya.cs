@@ -23,7 +23,7 @@ namespace dotNetLab1
     }
     internal class reverseElementOfArraya
     {
-        public void reverseArray()
+        static void Main(string[] args)
         {
             Console.Write("Enter the size of the array: ");
             int size = int.Parse(Console.ReadLine());

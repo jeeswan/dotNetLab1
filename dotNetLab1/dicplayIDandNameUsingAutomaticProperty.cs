@@ -12,14 +12,16 @@ namespace dotNetLab1
         public string StudentName { get; set; }
 
 
-        public void DisplayStudentDetails()
+        static void Main(string[] args)
         {
 
-            StudentId = 1;
-            StudentName = "Alice";
+            dicplayIDandNameUsingAutomaticProperty student = new dicplayIDandNameUsingAutomaticProperty();
 
-            Console.WriteLine($"Student ID: {StudentId}");
-            Console.WriteLine($"Student Name: {StudentName}");
+            student.StudentId = 001;
+            student.StudentName = "Rose";
+
+            Console.WriteLine($"Student ID: {student.StudentId}");
+            Console.WriteLine($"Student Name: {student.StudentName}");
         }
 
 

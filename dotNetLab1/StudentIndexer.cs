@@ -56,14 +56,14 @@ namespace dotNetLab1
     }
     internal class StudentIndexer
     {
-        public void StudIndexer() 
+        static void Main(string[] args) 
         {
             StudentCollection students = new StudentCollection();
 
             // Add students using the indexer
-            students[0] = "Alice";
-            students[1] = "Bob";
-            students[2] = "Charlie";
+            students[0] = "Rose";
+            students[1] = "Krisha";
+            students[2] = "Jeeswan";
 
             // Retrieve and display students using the indexer
             Console.WriteLine("Retrieving students by index:");
@@ -75,7 +75,7 @@ namespace dotNetLab1
             Console.WriteLine($"Student at index 5: {students[5]}");
 
             // Update a student's name using the indexer
-            students[1] = "Bobby";
+            students[1] = "Krishna";
 
             // Display all students
             students.DisplayStudents();

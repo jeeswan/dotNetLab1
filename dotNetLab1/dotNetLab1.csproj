@@ -44,8 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="addTwoDigitsUsingConstructor.cs" />
+    <Compile Include="AreaOfRectangle.cs" />
     <Compile Include="dicplayIDandNameUsingAutomaticProperty.cs" />
-    <Compile Include="main.cs" />
+    <Compile Include="polymorphism.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="reverseElementOfArraya.cs" />
     <Compile Include="SingleMultilevelHSingleMultilevelHierarchicalInheritanceInheritance.cs" />

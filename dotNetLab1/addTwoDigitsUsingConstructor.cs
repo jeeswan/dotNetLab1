@@ -27,8 +27,8 @@ namespace dotNetLab1
 
         internal class addTwoDigitsUsingConstructor
         {
-            public void addNumbers()
-            {
+        static void Main(string[] args)
+        {
                 int a, b;
 
                 Console.Write("Enter two numbers:");
